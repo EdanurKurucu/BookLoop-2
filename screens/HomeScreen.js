@@ -37,10 +37,14 @@ export default function HomeScreen({ navigation }) {
         <Text style={styles.buttonText}>Find bøger</Text>
       </TouchableOpacity>
 
-      <Text style={styles.secondaryText}>
+      <TouchableOpacity
+        style={styles.secondaryButton}
+        onPress={() => navigation.navigate("AddBook")}
+      >
+        <Text style={styles.secondaryButtonText}>
         Sælg eller udlej en bog
       </Text>
-
+      </TouchableOpacity>
     </View>
   );
 }

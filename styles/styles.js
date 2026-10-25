@@ -177,6 +177,49 @@ const styles = StyleSheet.create({
     color: "#666666",
     marginTop: 15,
   },
+  formContainer: {
+  flexGrow: 1,
+  backgroundColor: "#ffffff",
+  padding: 25,
+  paddingTop: 40,
+},
+
+textInput: {
+  borderWidth: 1,
+  borderColor: "#cccccc",
+  borderRadius: 8,
+  padding: 15,
+  fontSize: 16,
+  backgroundColor: "#ffffff",
+},
+
+typeContainer: {
+  flexDirection: "row",
+  marginTop: 5,
+  marginBottom: 10,
+},
+
+typeButton: {
+  borderWidth: 1,
+  borderColor: "#222222",
+  paddingVertical: 10,
+  paddingHorizontal: 25,
+  borderRadius: 20,
+  marginRight: 10,
+},
+
+activeTypeButton: {
+  backgroundColor: "#222222",
+},
+
+typeText: {
+  color: "#222222",
+  fontWeight: "600",
+},
+
+activeTypeText: {
+  color: "#ffffff",
+},
 });
 
 export default styles;
