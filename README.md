@@ -1,24 +1,24 @@
 # BookLoop
-BookLoop gør det muligt for studerende at finde studiebøger, som andre studerende ønsker at sælge eller udleje.
 
-Brugeren kan finde bøger ud fra universitet, studie og fag og se oplysninger om blandt andet pris, stand, edition samt mulighed for køb eller leje.
+bookLoop er en mobilapplikation lavet i React Native. Appen er tiltænkt studerende, som gerne vil købe, sælge eller leje studiebøger fra andre studerende. 
 
 ## Funktioner
 - Søgning efter studiebøger
-- Filtrering efter universitet, studie og fag
+- Filtrering mellem køb og leje
 - Liste over tilgængelige bøger
+- Oprette sin egen annonce
 - Information om bogens stand og pris
-- Mulighed for både køb og semesterudlejning
-- Navigation mellem appens forskellige sider
+- Vælge om bogeb skal sælges eller udlejes
+- gemme nye annoncer i Firebase Realtime Database 
 
+I den første version var bøgerne hardcodede i appen. I denne version bliver nye annoncer gemt i Firebase og vist i boglisten.
 
-Appen er udviklet med:
+## Appen er udviklet med:
 - React Native
 - Expo
 - React Navigation
 - JavaScript
+- Firebase Realtime Database
 
 ## Demovideo
-(https://youtube.com/shorts/BWwmdjGk2TI?feature=share)
-
-
+https://youtube.com/shorts/uJSj8WOWGmw?feature=share
